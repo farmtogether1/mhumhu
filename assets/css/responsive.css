@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1570px){
+	#home-nav li{
+		font-size: 30px;
+		padding: 0px 6px;
+	}
+	.text-first{
+		top: 39%;
+		left: 33%;
+	}
+	.text-first img{
+		width: 90%;
+	}
+	#lading-two p{
+		font-size: 18px;
+	}
+	#lading-two .text-connect img{
+		max-width: 80%;
+	}
+	#lading-two{
+		padding-bottom: 8rem;
+	}
+	#lading-four{
+		padding-bottom: 8rem;
+	}
+	#lading-six{
+		padding-bottom: 4rem;
+	}
+	#lading-eight{
+		padding-bottom: 8rem;
+	}
+
+	footer{
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 1350px){
+	.content-activity p{
+		font-size: 18px;
+	}
+	#home-nav li{
+		font-size: 25px;
+		padding: 0px 6px;
+	}
+	.text-first img{
+		width: 80%;
+	}
+	.text-first{
+		top: 40%;
+		left: 35%;
+	}
+	#lading-three .info-connect{
+		width: 90%;
+		font-size: 25px;
+	}
+	#lading-two .text-connect img{
+		max-width: 80%;
+	}
+	#lading-three .text-connect img{
+		max-width: 80%;
+	}
+	#lading-four .text-nft img{
+		max-width: 80%;
+	}
+	#lading-five .text-howto img{
+		max-width: 80%;
+	}
+	#lading-six .text-nft img{
+		max-width: 80%;
+	}
+	#lading-seven .text-token img{
+		max-width: 80%;
+	}
+	#lading-eight .text-nft img{
+		max-width: 80%;
+	}
+	#lading-nine .text-roadmap img{
+		max-width: 80%;
+	}
+	#lading-ten .text-nft img{
+		max-width: 80%;
+	}
+	#lading-six{
+		padding-bottom: 4rem;
+	}
+
+}
+
+
+@media only screen and (max-width: 1198px){
+	#lading-ten .bg-ldt{
+		top: 40%;
+	}
+	#home-nav li{
+		font-size: 20px;
+		padding: 0px 6px;
+	}
+		footer{
+		height: 350px;
+	}
+
+}
+@media only screen and (max-width: 1054px){
+	#home-nav li{
+		font-size: 16px;
+		padding: 0px 3px;
+	}
+	.form-header{
+		padding: 0px 30px;
+	}
+	.logo a{
+		position: relative;
+	}
+	.logo a img{
+		width: 120px;
+	}
+
+
+}
+@media only screen and (max-width: 990px){
+			footer{
+				padding-bottom: 80px;
+	}
+	.info-name h1{
+		font-size: 30px !important;
+	}
+	#lading-four{
+		padding-bottom: 8rem;
+	}
+	#home-nav li{
+		font-size: 25px;
+		padding: 10px 0px;
+	}
+	.text-first{
+		position: relative;
+		transform: unset;
+		margin: 0 auto;
+		top: unset;
+		left: unset;
+		padding: 45px 12px;
+	}
+	.text-first img{
+		width: 100%;
+	}
+	.bg-main-first{
+		display: none;
+	}
+	#lading-four .bg-ldt{
+		top: 25%;
+	}
+	#lading-two .text-connect img{
+		max-width: 80%;
+	}
+	#lading-three .text-connect img{
+		max-width: 80%;
+	}
+	#lading-two .info-connect{
+		border: 1px solid #1c82f1;
+		position: relative;
+		text-align: left;
+		width: 90%;
+		margin: 0 auto;
+		margin-top: -12px;
+		padding: 10px;
+		border-radius: 12px;
+		background: #fff;
+	}
+	#lading-two{
+		padding-bottom: 4rem;
+	}
+}

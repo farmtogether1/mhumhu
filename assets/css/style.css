@@ -1,0 +1,251 @@
+/**/
+*{
+	padding:  0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: NormalFont;
+	src: url(../../assets/font/Cocogoose-Classic-Medium-trial.ttf);
+}
+@font-face {
+	font-family: GamePlay;
+	src: url(../../assets/font/Gameplay.ttf);
+}
+@font-face {
+	font-family: QueenFont;
+	src: url(../../assets/font/Quicksilver.ttf);
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: #12121e;
+	position: relative;
+	font-family: NormalFont;
+	max-width: 1920px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+
+
+.navbar-brand img{
+	max-width: 300px;
+}
+header{
+	width: 100%;
+	max-width: 1920px;
+	position: fixed;
+	z-index: 999;
+	transition: 0.3s;
+}
+header .container{
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+	flex-direction: row;
+
+	max-height: 80px;
+}
+#wraper{
+	background: url(../../assets/imgs/Background.png) no-repeat;
+	width: 100%;
+	background-position: bottom;
+	background-size: 100%;
+	padding-top: 120px;
+}
+.first-section{
+	width: 100%;
+	max-height: 980px;
+	padding-bottom: 120px;
+}
+.second-section{
+	width: 100%;
+	max-height: 980px;
+	padding-bottom: 120px;
+}
+.three-section{
+	width: 100%;
+	max-height: 980px;
+	padding-bottom: 120px;
+}
+.four-section{
+	width: 100%;
+	max-height: 980px;
+	padding-bottom: 120px;
+}
+.five-section{
+	width: 100%;
+	max-height: 980px;
+	padding-bottom: 120px;
+}
+.custom-text{
+	font-family: GamePlay;
+	font-size: 80px;
+}
+.color-yellow{
+	color: #bfc501;
+}
+.color-yellow-light{
+	color: #f7ff00;
+}
+.custom-info p{
+	font-size: 28px;
+}
+.custom-info ul{
+	list-style: none;
+	margin: 0;
+	padding:  0;
+}
+.custom-info ul li{
+	font-size: 24px;
+	margin-bottom: 28px;
+}
+.btn_custom{
+	position: relative;
+	text-align: center;
+	font-family: QueenFont;
+	text-decoration: none;
+	color: #d3d3d3;
+	background: url(../../assets/imgs/Button_Blank.png) center no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	padding:  6px 18px;
+	transition: 0.3s;
+}
+.btn_custom:hover{
+	background: url(../../assets/imgs/Button_Blank_Hover.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.btn_custom span{
+	font-size: 32px;
+	color: #fff !important;
+}
+
+.btn_lauch{
+	position: relative;
+	text-align: center;
+	font-family: QueenFont;
+	text-decoration: none;
+	color: #d3d3d3;
+	background: url(../../assets/imgs/Button_Blank.png) center no-repeat;
+	background-size: 100% 100%;
+	display: inline-block;
+	padding: 12px 24px;
+	transition: 0.3s;
+}
+.btn_lauch:hover{
+	background: url(../../assets/imgs/Button_Blank_Hover.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.btn_lauch span{
+	font-size: 18px;
+	color: #fff !important;
+}
+.custom-info .card{
+	background: #54228396;
+	padding: 18px;
+	border-radius: 12px;
+	text-align: center;
+}
+.custom-info .card  .number-card{
+	font-family: QueenFont;
+	font-size: 32px;
+	margin: 0 auto;
+	display: block;
+	padding: 6px 24px;
+	border-radius: 12px;
+	background: #5c00cd;
+	border: 5px solid;
+	border-color: #7d20f0;
+}
+.custom-info .card:hover  .number-card{
+	border-color: #f7ff00;
+}
+.custom-info .card p{
+	font-size: 18px;
+	font-family: QueenFont;
+	font-weight: 200;
+}
+.custom-info h3{
+	font-family: QueenFont;
+}
+.custom-info .card-footer{
+	background-color: #fff0;
+}
+.custom-info .card-footer > button{
+	font-family: QueenFont;
+	background: #5c00cda1;
+	color:  #fff;
+	display: inline-block;
+	border-radius: 12px;
+	padding: 6px 56px;
+	border: 3px solid;
+	border-color: #7d20f0;
+	font-size: 24px;
+}
+.custom-info .card:hover .card-footer > button{
+	background: #f7ff0069;
+	border-color: #f7ff00;
+}
+.custom-info .nav-link{
+	font-family: QueenFont;
+	border: 3px solid #7d20f0;
+	background: #5c00cda1;
+	color: #fff;
+	margin-right: 12px;
+	border-radius: 12px;
+}
+.custom-info .nav-pills .nav-link.active{
+	background: #f7ff0069 !important;
+	border: 3px solid #f7ff00 !important;
+}
+.h-120px{
+	height: 120px !important;
+}
+#pills-tabContent .accordion-item{
+	background: none;
+}
+#pills-tabContent .accordion-button{
+	background: none;
+	color:  #fff;
+	font-family: QueenFont;
+	font-size: 18px;
+}
+#pills-tabContent .accordion-button:focus{
+	box-shadow: none !important;
+	border-color:  none !important;
+}
+#pills-tabContent .accordion-button::after{
+flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../../assets/imgs/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+#pills-tabContent .accordion-button:not(.collapsed){
+	color: #ffc107;
+}
+#pills-tabContent .accordion-body{
+	color: #cfcccc;
+	font-size: 18px;
+}
+#pills-tabContent .accordion-body ul>li{
+	font-size: unset;
+  margin-bottom: unset;
+}
+footer{
+	clear: both;
+}
+.logo-footer{
+	text-align: center;
+}
+.footer{
+	padding-bottom: 40px;
+}
