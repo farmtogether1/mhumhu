@@ -233,6 +233,7 @@ flex-shrink: 0;
 	color: #ffc107;
 }
 #pills-tabContent .accordion-body{
+	font-family: QueenFont;
 	color: #cfcccc;
 	font-size: 18px;
 }
